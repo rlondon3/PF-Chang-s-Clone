@@ -1,0 +1,217 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-color: black;
+}
+/* .row {
+    margin-left: calc(var(--bs-gutter-x)/ -.9);
+} */
+/* .celebratetxt {
+    position: relative;
+}
+.celebratetxt > img, .overlay-text {
+    position: absolute;
+} */
+
+/* NAVs */
+#darkgreynav {
+    background-color: #363835 !important;
+}
+#darkgreynav2 {
+    background-color: #363835;
+}
+#navbar2 {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #000000;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+#navbar3 {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #000000;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+}
+#finalnav {
+    background-color: black !important;
+}
+/* BUTTONS */
+#signin, #signin2, #menu {
+    border-width: 3px;
+}
+.btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+button.navbar-toggler:focus {
+    outline: 1px none;
+    box-shadow: none; 
+} 
+#menu:hover, #signin:hover {
+    background-color: black;
+    border: none !important;
+}
+#signin2:hover {
+    background-color: #363835;
+    text-decoration: underline;
+    color: white;
+    border: none !important;
+    box-shadow: none !important;
+}
+.btn:hover {
+    border:2px solid white !important;
+    text-decoration: underline;
+    outline: none !important;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: none !important;
+    text-shadow: 1px 1px 2px black;
+}
+.btn-group {
+    width: 35%;
+    margin: 0 auto;
+    max-width: 500px;
+}
+/*COLUMNS*/
+
+
+/* TEXT */
+
+#chooseexp {
+    display: flex;
+    flex-direction: row;
+}
+#chooseexp::before, 
+#chooseexp::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #363835 ;
+    margin: auto;
+}
+#chooseexp::before {
+    margin-right: 10px;
+}
+#chooseexp::after {
+    margin-left: 10px;
+}
+/* LINKS DOUBLE CHECK!!!! */
+#makereservation, #orderonline, #applynow {
+    display: inline-block;
+    width: 100%;
+    max-width: 500em;
+    margin: 0 auto;
+    padding: .9375rem 1em;
+}
+#chefcard {
+    width: 100%;
+    height: 40.6vw;
+    object-fit: cover;
+    }
+    .card-text {
+        text-shadow: 1em 1em 2em black;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    #orderthroughapp {
+        font-size: 14px;
+    }
+    .fas {
+        font-size: 50px;
+    }
+   #facebook, #twitter, #instagram {
+       font-size: 70px;
+       color: white
+   }
+   .fab {
+       color: white;
+       text-decoration: none;
+   }
+   .fab:hover {
+       color: white;
+   }
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    display: block;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+#googleplay {
+    padding-right: 40px;
+}
+#copyright:hover {
+    text-decoration: none;
+}
+@media (min-width: 1200px) {
+    body {
+        padding-top: 150px;
+    }
+    #finalnav {
+        visibility: hidden;
+    }
+}
+@media (max-width: 1200px) {
+    #food1card {
+        padding-top: 100px;
+    }
+   #food1 {
+    image-resolution: 100%;
+    width: 100%;
+    height: 125vh !important;
+    object-fit: cover;
+}
+    .card-title {
+        text-shadow: 1em 1em 2em black !important;
+    }
+    #hormenu, #horrewards, #hortakeout, #horcelebrations, #horgiftcards, #horcatering, #horcareers {
+        border-bottom: 2px solid #6a6b6a !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #secondfooterul, #secondfooterul2, #secondfooterul3, #secondfooterul4, 
+    #secondfooterul5, #secondfooterul6, #secondfooterul7, #orderthroughapp {
+        justify-content: center !important;
+    }
+    #hline {
+        background-color: white;
+        width: 95%;
+        height: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        border: 1px solid white;
+        opacity: 100;
+    }
+    #copyright {
+        margin-top: 0 !important;
+        margin-bottom: 125px !important;
+    }
+}
+@media (max-width: 992px) {
+    #navbar3 {
+        visibility: hidden;;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+}

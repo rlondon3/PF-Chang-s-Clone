@@ -1,0 +1,737 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
+.container-fluid {
+  padding-left: var(--bs-gutter-x, none);
+  padding-right: var(--bs-gutter-x, none);
+}
+.row {
+  --bs-gutter-x: none;
+  --bs-gutter-y: none;
+}
+/* NAVs */
+.navbar {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+#navbar,
+#locations-nav {
+  background-color: #363835 !important;
+}
+#darkgreynav2 {
+  background-color: #363835;
+}
+#navbar2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  background-color: #000000;
+  font-size: 1.2em;
+  border: 0;
+}
+#navbar3 {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #000000;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+}
+#finalnav {
+  background-color: black !important;
+}
+
+/*IMAGES*/
+#bg-pattern {
+  width: 100%;
+
+  position: relative;
+}
+#background {
+  width: 100%;
+}
+#image-container {
+  position: relative;
+  text-align: center;
+  border-width: 1px 5px 20px 1px;
+  border-style: solid;
+  border-color: #363835;
+}
+
+#chef-img {
+  border-top: 2px solid;
+  border-top-color: #363835;
+  object-fit: cover;
+}
+#food-img {
+  border-top: 2px solid;
+  border-top-color: #363835;
+  object-fit: cover;
+}
+/*TEXT*/
+.h1 {
+  position: absolute;
+  white-space: nowrap;
+  text-shadow: 1px 1px 2px black;
+}
+.lead {
+  position: absolute;
+  white-space: nowrap;
+  text-shadow: 1px 1px 2px black;
+}
+#celebrate {
+  top: 11.7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#celebrate-txt {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 1px 2px black;
+}
+#bringhome {
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#bringhome2 {
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+#medfood {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+#medfood2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+#work {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#workperks {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+#workperks2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+#orderthroughapp {
+  text-decoration: none;
+}
+
+/* BUTTONS */
+#signin,
+#signin2,
+#menu {
+  border-width: 3px;
+}
+.btn:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+button.navbar-toggler:focus {
+  outline: 1px none;
+  box-shadow: none;
+}
+#menu:hover,
+#signin:hover {
+  background-color: black;
+  border: none !important;
+}
+#signin2:hover {
+  background-color: #363835;
+  text-decoration: underline;
+  color: white;
+  border: none !important;
+  box-shadow: none !important;
+}
+.btn:hover {
+  border: 2px solid white !important;
+  text-decoration: underline;
+  outline: none !important;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  box-shadow: none !important;
+  text-shadow: 1px 1px 2px black;
+}
+.btn-group {
+  width: 35%;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+#makereservation,
+#orderonline,
+#applynow {
+  display: inline-block;
+  width: 70%;
+  max-width: 500em;
+  margin: 0 auto;
+  padding: 0.9375rem 1em;
+}
+#makereservation {
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+#orderonline {
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#applynow {
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+/*LINKS*/
+.nav-link {
+  font-size: 14px;
+}
+#orderthroughapp {
+  font-size: 14px;
+  padding-right: 50px;
+}
+.fas {
+  font-size: 50px;
+}
+#facebook,
+#twitter,
+#instagram {
+  font-size: 70px;
+  color: white;
+}
+.fab {
+  color: white;
+  text-decoration: none;
+}
+.fab:hover {
+  color: white;
+}
+#search {
+  font-size: 30px;
+  color: white;
+  background-color: rgb(189, 15, 15);
+  padding: 10px;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+#search2 {
+  font-size: 20px;
+  color: white;
+  border-bottom-color: white;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  padding: 4px;
+  text-decoration: none;
+}
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  display: block;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+#copyright:hover {
+  text-decoration: none;
+}
+
+#secondfooterul6 {
+  padding-right: 40px;
+  padding-left: 10px;
+}
+#secondfooterul3,
+#secondfooterul4,
+#secondfooterul2,
+#secondfooterul {
+  padding-left: 40px;
+}
+/*SEARCH*/
+
+table {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 70%;
+  height: 40%;
+  background-color: black;
+  border: none;
+}
+td {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 15px;
+}
+#location-finder {
+  white-space: nowrap;
+}
+
+#search-heading {
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/*SEARCH RESULTS */
+
+#loc-results {
+  width: 100rem;
+  height: 15rem;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/*MAP*/
+.map {
+  height: 400px;
+  position: relative;
+  border-bottom: 20px solid #363835;
+}
+#mapResults2 {
+  margin-left: 50px;
+  background-color: black;
+  width: 45%;
+  position: absolute;
+  align-self: flex-end;
+  margin-bottom: 25px;
+}
+#mapResults {
+  background-color: black;
+  height: 100%;
+}
+
+/*LOCATIONS*/
+#location {
+  text-decoration: none;
+  white-space: nowrap;
+}
+#location:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding-top: 145px;
+  }
+  #finalnav {
+    visibility: hidden;
+  }
+  #hline {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  #celebrate-txt {
+    top: 30%;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+  }
+  #makereservation {
+    top: 45%;
+    left: 50%;
+  }
+  #orderonline {
+    top: 45%;
+    left: 50%;
+  }
+  #applynow {
+    top: 90%;
+    left: 50%;
+  }
+  #workperks {
+    visibility: visible;
+    top: 74%;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+  }
+  #medfood {
+    visibility: visible;
+    top: 30%;
+    left: 50%;
+    font-size: 1.5rem;
+    white-space: pre-wrap;
+  }
+  #bringhome {
+    top: 15%;
+  }
+  #location-finder {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+@media (max-width: 1200px) {
+  #hormenu,
+  #horrewards,
+  #hortakeout,
+  #horcelebrations,
+  #horgiftcards,
+  #horcatering,
+  #horcareers {
+    border-bottom: 2px solid #6a6b6a !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  #secondfooterul,
+  #secondfooterul2,
+  #secondfooterul3,
+  #secondfooterul4,
+  #secondfooterul5,
+  #secondfooterul6,
+  #secondfooterul7,
+  #orderthroughapp {
+    justify-content: center !important;
+  }
+  #hline {
+    background-color: white;
+    width: 95%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    opacity: 100;
+  }
+  #copyright {
+    margin-top: 0 !important;
+    margin-bottom: 125px !important;
+    justify-content: center !important;
+    padding-right: 40px !important;
+  }
+  #mobilefooter {
+    padding: 0 0 10px;
+  }
+  .h1 {
+    font-size: 3.5rem;
+  }
+  #celebrate-txt {
+    top: 32%;
+    font-size: 2rem;
+    white-space: pre-wrap;
+  }
+  #makereservation {
+    top: 50%;
+    left: 50%;
+  }
+  #workperks {
+    visibility: visible;
+    top: 75%;
+    left: 50%;
+    font-size: 2rem;
+    white-space: pre-wrap;
+  }
+  #bringhome {
+    top: 10%;
+    left: 50%;
+  }
+  #medfood {
+    visibility: visible;
+    top: 25%;
+    left: 50%;
+    font-size: 2rem;
+    white-space: pre-wrap;
+  }
+  #orderonline {
+    top: 40%;
+    left: 50%;
+  }
+  #applynow {
+    top: 90%;
+    left: 50%;
+  }
+  #btnMove {
+    margin-left: auto;
+  }
+  #stickNav {
+    top: 0 !important;
+  }
+  #footer {
+    border-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #navbar3 {
+    visibility: hidden;
+  }
+  #celebrate-txt {
+    top: 32%;
+  }
+  #makereservation {
+    top: 50%;
+    left: 50%;
+  }
+  #work {
+    top: 60%;
+  }
+  #map {
+    visibility: hidden;
+    position: absolute;
+  }
+  #mapResults2 {
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+  }
+  #btnMove {
+    margin-left: 150px;
+  }
+  #location-finder2 {
+    margin-left: 10px;
+    margin-right: 60px;
+  }
+  #stickNav {
+    top: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #celebrate-txt {
+    top: 37%;
+    white-space: pre-wrap;
+    font-size: 1.5rem;
+  }
+  #makereservation {
+    top: 55%;
+    left: 50%;
+  }
+  #medfood {
+    font-size: 1.25rem;
+  }
+  #workperks {
+    font-size: 1.25rem;
+  }
+  #btnMove {
+    margin-left: 100px;
+  }
+  #stickNav {
+    top: 0 !important;
+  }
+}
+
+@media (max-width: 627px) {
+  #locButtons {
+    width: 50%;
+  }
+  #remove {
+    visibility: visible;
+  }
+  #btnMove {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand {
+    margin-right: 0;
+  }
+  #copyright {
+    padding-left: 30px;
+  }
+  .btn-group {
+    margin: 0;
+    padding: 0;
+  }
+  #mobilebuttons {
+    justify-content: space-between !important;
+  }
+  .h1 {
+    font-size: 3rem;
+    white-space: normal;
+  }
+  .lead {
+    white-space: normal;
+  }
+  #celebrate-txt {
+    top: 40%;
+    white-space: pre-wrap;
+    font-size: 1.25rem;
+  }
+  #makereservation {
+    top: 55%;
+    left: 50%;
+  }
+  #bringhome {
+    top: 20%;
+    visibility: hidden;
+  }
+  #medfood {
+    visibility: hidden;
+  }
+  #orderonline {
+    top: 35%;
+  }
+  #bringhome2 {
+    visibility: visible;
+    top: 10%;
+    white-space: nowrap;
+  }
+  #medfood2 {
+    visibility: visible;
+    white-space: nowrap;
+    top: 20%;
+  }
+  #work {
+    white-space: nowrap;
+  }
+  #applynow {
+    top: 93%;
+  }
+  #workperks {
+    top: 80%;
+    visibility: hidden;
+  }
+  #workperks2 {
+    top: 75%;
+    visibility: visible;
+  }
+  #mapResults2 {
+    margin-left: 0;
+  }
+  #locButtons {
+    width: auto;
+  }
+  #remove {
+    visibility: hidden;
+  }
+  #btnMove {
+    margin-left: 150px;
+  }
+  #location-finder2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #restaurant-search {
+    width: 75%;
+  }
+  #stickNav {
+    top: 0px !important;
+  }
+  #finalnavbtn,
+  #finalnavbtn2 {
+    font-size: 0.7rem !important;
+  }
+  #menu2 {
+    width: 50% !important;
+  }
+  #secondfooterul3,
+  #secondfooterul4,
+  #secondfooterul2,
+  #secondfooterul {
+    padding-left: 0px !important;
+  }
+  #search-container {
+    top: 65% !important;
+  }
+}
+@media (min-width: 576px) {
+  .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 392px) {
+  #makereservation {
+    top: 70%;
+    left: 50%;
+  }
+  #celebrate-txt {
+    top: 50%;
+    white-space: pre-wrap;
+  }
+  #orderonline {
+    top: 40%;
+    left: 50%;
+  }
+  #work {
+    top: 55%;
+    white-space: nowrap;
+  }
+  #applynow {
+    top: 92%;
+    left: 50%;
+  }
+  #bringhome {
+    visibility: hidden;
+  }
+  #bringhome2 {
+    visibility: visible;
+    top: 15%;
+  }
+  #medfood2 {
+    visibility: visible;
+    white-space: nowrap;
+    top: 25%;
+  }
+  #workperks {
+    visibility: hidden;
+  }
+  #workperks2 {
+    visibility: visible;
+    top: 70%;
+  }
+  #locButtons {
+    width: auto;
+  }
+  #mapResults2 {
+    margin: 0;
+  }
+  #remove {
+    visibility: hidden;
+  }
+  #restaurant-search {
+    width: 75%;
+  }
+  #btnMove {
+    margin-left: 70px;
+  }
+  #location-finder2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #foodmain {
+    margin-top: 0 !important;
+  }
+  #foodmain2 {
+    margin-top: 50px !important;
+  }
+  #foodmain3 {
+    margin-top: 10px !important;
+  }
+  #stickNav {
+    top: 0 !important;
+  }
+}

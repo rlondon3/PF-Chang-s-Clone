@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mediterranean Food Restaurant | Ricky and Mortimore's</title>
+  </head>
+  <body>
+      <div class="container-fluid">
+    <nav class="fixed-top"><!--FIRST NAV-->
+        <nav class="d-none d-xl-block navbar navbar-inverse navbar-secondary bg-secondary" id="navbar">
+            <div class="container-fluid">
+                <div class="navbar-brand py-0">
+                    <a href="location.html" style="color: white;">
+                        <span class="fas fa-map-marker-alt p-1 m-1" style="color: white;"></span>
+                        FIND YOUR LOCATION
+                    </a>
+                </div>
+                <div class="nav navbar-nav navbar-right"><!--NAV BUTTONS-->
+                    <div class="d-inline-block flex-row">
+                        <a href="menu.html"><button class="btn btn-outline-light text-white rounded-0 mt-1 me-3" id="menu">EXPLORE MENU</button></a>
+                        <button class="btn btn-outline-light text-white rounded-0 mt-1 me-2" id="signin">SIGN IN & EARN REWARDS</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="d-none d-xl-block navbar navbar-inverse navbar-dark" id="navbar2">
+            <div class="container-fluid">
+                <div class="navbar-brand">
+                    <a href="index.html">
+                        <img src="img/未命名作品.jpg" width="300" height="50" alt="">
+                    </a>
+                </div>
+                <div class="nav navbar-nav navbar-right"><!--SECOND NAV-->
+                    <div class="d-flex flex-row ">
+                        <h5 class="pt-4 px-4"  style="color: white;">CHOOSE YOUR EXPERIENCE</h5>
+                            <button class="btn btn-danger btn-lg rounded-0 m-2" id="menu2">ORDER ONLINE</button>
+                            <button class="btn btn-danger btn-lg rounded-0 m-2" id="reservation">RESEVERATIONS</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+         </nav>
+        <nav class="d-flex d-none d-sm-none d-lg-flex d-md-none d-xl-none navbar navbar-expand-xl navbar-dark" id="navbar3"><!--MOBILE NAV-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/未命名作品.jpg" width="200" height="50">
+            </a>
+            <div class="d-flex flex-row" style="max-width: 50%;" id="toggler-signin">
+                <button type="button" class="btn btn-outline-light rounded-0 ml-auto" id="signin2">
+                    SIGN IN AND EARN REWARDS
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu3"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true">
+                        <span class="sr-only"></span>
+                    </i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse text-center" id="menu3">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#orderline" class="nav-link">ORDER ONLINE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="location.html" class="nav-link">LOCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Reservations" class="nav-link">RESERVATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#rewards" class="nav-link">REWARDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#takeout" class="nav-link">TAKEOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#giftcards" class="nav-link">GIFT CARDS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> 
+    </div> 
+        <nav class="d-flex d-lg-none d-xl-none navbar navbar-expand-xl navbar-dark" id="navbar3a"><!--MOBILE NAV 2-->
+            <a class="navbar-brand" href="index.html">
+                <img src="img/未命名作品.jpg" width="200" height="50">
+            </a>
+            <div class="d-flex flex-row" id="toggler-signin">
+                <button type="button" class="btn btn-outline-light rounded-0" id="signin2">
+                    SIGN IN
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu3"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true">
+                        <span class="sr-only"></span>
+                    </i>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse text-center" id="menu3">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#orderline" class="nav-link">ORDER ONLINE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="location.html" class="nav-link">LOCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Reservations" class="nav-link">RESERVATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#rewards" class="nav-link">REWARDS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#takeout" class="nav-link">TAKEOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#giftcards" class="nav-link">GIFT CARDS</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <!--MAIN CONTENT-->
+    <div class="container-fluid">
+        <div class="row">
+            <img src="img/mainmenu2.png" alt="">
+            <div class="display-4 h1 text-center text-white" id="foodmain" style="position: absolute; margin-top: 50px;">MAIN MENU</div>
+            <p class="lead text-white text-center" id="foodmain2" style="position: absolute; margin-top: 110px; white-space: normal;">We make all of our food from scratch at each restaurant, every day. Meny may vary by location.</p>
+        </div>
+        <!--MENU NAV-->
+        <nav class="navbar nav justify-content-center navbar-light bg-danger sticky-top" style="top: 152px;" id="stickNav">
+            <a class="nav-item nav-link text-white" href="#foodmain3">Appetizers</a>
+            <a class="nav-item nav-link text-white" href="#foodmain4">Seafood</a>
+                <a class="nav-item nav-link text-white" href="#foodmain5">Salads</a>
+                <a class="nav-item nav-link text-white" href="#foodmain6">Main Course</a>
+                <a class="nav-item nav-link text-white" href="#foodmain7">Desert</a>
+            <div class="collapse navbar-dropdown-toggle" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="#">Disabled</a>
+              </div>
+            </div>
+          </nav>
+          <!--MENU NAV END-->
+        <div class="row">
+            <img src="img/appetizer.png" alt="">
+            <div class="display-4 h1 text-center text-white" id="foodmain3" style="position: absolute; margin-top: 30px;">APPETIZERS</div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-6">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">FALAFEL <span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">A secret recipe for the best authentic falafel, made with chickpeas, fresh herbs and spices!</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">HALVA <span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">A traditional Middle Eastern fudge-like confection made with tahini (sesame seed paste), sugar, spices and nuts.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">SABICH <span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">Sabich or sabih is an Israeli sandwich of pita or laffa bread stuffed with fried eggplants, hard boiled eggs, Salat Katzutz, parsley, amba and tahini sauce.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-md-6 pe-2">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">MEZZE PLATTER <span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">A tasty platter adorned with hummus, tabbouleh, almonds, lavash bread, olives, feta cheese, cucumbers, tomatoes, and artichoke hearts.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">CHICKEN SKEWERS</div></a>
+                        <p class="text-white">Our farm raised chicken and fresh summer vegetables are marinated in a light Mediterranean-style marinade of lemon juice, olive oil, garlic, and spices, then grilled on skewers until golden brown.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">SALMON SALAD</div></a>
+                        <p class="text-white">Our salmon salad comes fully loaded with pan seared, tender-crisp salmon fillets, cucumber, olives, tomatoes, feta cheese and avocados drizzled in the best lemon herb mediterranean dressing!</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center pb-5">
+                <button class="btn btn-danger btn-lg rounded-0 m-2" style="width: 40%;" id="menu2">ORDER ONLINE</button>
+            </div>
+        </div>
+        <div class="row">
+            <img src="img/seafood.png" alt="">
+            <div class="display-4 h1 text-center text-white" id="foodmain4" style="position: absolute; margin-top: 30px;">SEAFOOD</div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-6">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">PAELLA</div></a>
+                        <p class="text-white">A seafood stew with a tomato base, our paella is slow cooked with marinated calamari and prawns, and lightly seasoned with sea-salt, black pepper, and sumac. We add croutons to give for added a crunchy taste.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">CRISPY ZA'ATAR FISH</div></a>
+                        <p class="text-white">Za'atar is a pre-made spice blend of aromatic dried thyme or oregano, tart sumac, and nutty sesame seeds. Here, it flavors fish fillets served over a warm salad of wilted chard, crisp pomegranate seeds, briny olives, and salty feta.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">SHABBAT FISH</div></a>
+                        <p class="text-white">Classic buttery, garlicky, and citrusy tilapia fillets served over our Israeli couscous.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-md-6 pe-2">
+                <ul style="list-style-type: none;">
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">SEARED SCALLOPS</div></a>
+                        <p class="text-white">A light dish that deivers a rich peppery nutty flavor, served over chewy Israeli couscous.</p>
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">HARISSA-SPICED SALMON <span><i class="fas fa-pepper-hot" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">A crisp-skinned salmon fillet, cooked with a spicy harissa and sweet agave, and paired with our tangy red grape house salad.</p>
+                    </li>
+                    <br>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">CHILI, LEMON, AND BASIL SHRIMP</div></a>
+                        <p class="text-white">Spicy and hot with a zing of lemon, and added basil sweetness, and served with toasty pita bread and hummus.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center pb-5">
+                <button class="btn btn-danger btn-lg rounded-0 m-2" style="width: 40%;" id="menu2">ORDER ONLINE</button>
+            </div>
+        </div>
+        <div class="row">
+            <img src="img/salad.png" alt="">
+            <div class="display-4 h1 text-center text-white" id="foodmain5" style="position: absolute; margin-top: 30px;">SALADS</div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-6">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">RICKY'S HOUSE SALAD<span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">A robust salday made with peppery arugula, hearty chickpeas, cool cucumbers, smoky roasted reds, tangy feta cheese and an herby vinaigrette.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">PAREVE "ISRAELI SALAD"<span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">This chopped tomato and cucumber is sprinkled with pine nuts, herbs, and cheese. Pareve is a popular choice in Tel-Aviv</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">QUINOA SALAD<span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">Made with cucumbers, tomatoes, kalamata olives, red onion, extra virgin olive oil, fresh lemon and Feta cheese, this filling salad is packed with tasy Mediterranean flavors.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-md-6 pe-2">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">MORTIMORE'S DELIGHT</div></a>
+                        <p class="text-white">Bite into this salad filled with romaine, chickpeas, tomatoes, cucumber, red onion, bell peppers, roasted red peppers, feta, fresh herbs, lemon garlic shrimp, and a zesty Greek vinaigrette. </p>
+                    </li>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">GRILLED CHICKEN SALAD</div></a>
+                        <p class="text-white">This grilled chicken salad combines marinated chicken, fresh veggies, and lemon and olive dressing for bold tasty flavors.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">ORANGE AND POMEGRANATE SALAD<span><i class="fas fa-leaf" style="font-size: 20px;"></i></span></div></a>
+                        <p class="text-white">Made with a sprinkle of warm spices, and a bright lime dressing with a touch of honey and orange blossom water, this salad is a tasty mix of naval oranges pomegranate arils, and shallots.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center pb-5">
+                <button class="btn btn-danger btn-lg rounded-0 m-2" style="width: 40%;" id="menu2">ORDER ONLINE</button>
+            </div>
+        </div>
+        <div class="row">
+            <img src="img/entree.png" alt="">
+            <div class="display-4 h1 text-center text-white" id="foodmain6" style="position: absolute; margin-top: 30px;">MAIN COURSE</div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-6">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">KATAIFI NESTS WITH MAURITANIAN GROUND LAMB</div></a>
+                        <p class="text-white">Seasoned ground lamb and zucchini nestled perfectly inside our delicious kataifi.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">BEEF MOUSSAKA WITH MATBUCHA</div></a>
+                        <p class="text-white">Made with thick layers of eggplant, beef in tomato sauce, topped with béchamel sauce.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">SHAWARMA</div></a>
+                        <p class="text-white">A juicy chicken marinated in a blend of Middle Eastern spices. Enjoy this dish as a wrap with tomato, lettuce, and a simple yoghurt sauce on the side, or with rice and a salad.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">ROASTED RACK OF LAMB</div></a>
+                        <p class="text-white">Tender, oven roasted rack of lamb marinated in garlic and herbs.</p>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">SUMAC DUSTED BEEF SKEWERS WITH SPICY MANGO CHUTNEY</div></a>
+                        <p class="text-white">A brilliant combination of the Middle Eastern Spice Sumac with the tangy sweetness of mango chutney on beef skewers.</p>
+                    </li>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">TAHINI MEATBALLS</div></a>
+                        <p class="text-white">These beefy meatballs in tahini are baked with roasted vegetables for added flavor, and are served with our Israeli salad.</p>
+                    </li>
+                    <br>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center pb-5">
+                <button class="btn btn-danger btn-lg rounded-0 m-2" style="width: 40%;" id="menu2">ORDER ONLINE</button>
+            </div>
+        </div>
+        <div class="row">
+            <img src="img/desert.png" alt="">
+            <div class="display-4 h1 text-center text-white" id="foodmain7" style="position: absolute; margin-top: 30px;">DESERT</div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-6">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">MALABI ROSE WATER MILK PUDDING</div></a>
+                        <p class="text-white">Silky textured and light, the flower-scented pudding is topped with sweet syrup and nuts or shredded coconut.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul style="list-style-type: none";>
+                    <li>
+                        <a href="" style="text-decoration: none;"><div class="h4 text-white">HALVA</div></a>
+                        <p class="text-white">Our halva cake is dense and moist; combining the familiar taste of Tel-Aviv with a hint of Turkish sweetness</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex justify-content-center pb-5">
+                <button class="btn btn-danger btn-lg rounded-0 m-2" style="width: 40%;" id="menu2">ORDER ONLINE</button>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--FOOTER-->
+    <footer class="bg-secondary" id="footer" style="border-bottom: 20px solid #363835;">
+        <ul class="nav d-block d-sm-block d-md-block d-lg-block d-xl-flex justify-content-center" id="darkgreynav2">
+            <li class="nav-item d-flex justify-content-center border-end border-light" id="hormenu">
+              <a class="nav-link link text-white px-4" href="menu.html"><span class="px-2"></span>MENU <span class="px-2"></span></a>
+            </li>
+            <li class="nav-item d-flex justify-content-center border-end border-light px-2" id="horrewards">
+              <a class="nav-link link text-white" href="#"> <span class="px-3"></span> REWARDS <span class="px-3"></span></a>
+            </li>
+            <li class="nav-item d-flex justify-content-center border-end border-light px-2" id="hortakeout">
+              <a class="nav-link link text-white px-4" href="#"> <span class="px-3"></span>TAKEOUT <span class="px-3"></span></a>
+            </li>
+            <li class="nav-item d-flex justify-content-center border-end border-light px-2" id="horcelebrations">
+              <a class="nav-link link text-white px-4" href="#"> <span class="px-3"></span>CELEBRATIONS <span class="px-3"></span></a>
+            </li>
+            <li class="nav-item d-flex justify-content-center border-end border-light px-2" id="horgiftcards">
+              <a class="nav-link link text-white px-4" href="#"><span class="px-3"></span>GIFT CARDS <span class="px-3"></span></a>
+            </li>
+            <li class="nav-item d-flex justify-content-center border-end border-light px-2" id="horcatering">
+              <a class="nav-link link text-white px-4" href="#"><span class="px-3"></span>CATERING <span class="px-3"></span></a>
+            </li>
+            <li class="nav-item d-flex justify-content-center" id="horcareers">
+              <a class="nav-link link text-white px-4" href="#"> <span class="px-2"></span>CAREERS<span class="px-2"></span></a>
+            </li>
+          </ul>
+    </footer>
+
+    <!--SECOND FOOTER-->
+    <footer class="bg-danger">
+        <div class="container-fluid ">
+          <div class="row d-block d-sm-block d-md-block d-lg-block d-xl-flex justify-content-center">
+             <div class="col-xl-6">
+                <ul class="nav" id="secondfooterul">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">ABOUT US</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">MEDIA</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">BLOG</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">FAQ</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+            <div class="d-block d-sm-block d-md-block d-lg-block">
+                <hr id="hline">
+            </div>
+                <ul class="nav" id="secondfooterul2">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="location.html">U.S Locations</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="location.html">International Locations</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white">|</span>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Global Opportunities</a>
+                    </li>
+                        <span class="px-2 pt-2 text-white"></span>
+                </ul>
+                <ul class="nav" id="secondfooterul3">
+                    <li class="nav-item" id="facebook">
+                        <a class="fab fa-facebook-f px-2" href="#"></a>
+                    </li>
+                    <li class="nav-item"  id="twitter">
+                        <a class="fab fa-twitter px-2" href="#"></a>
+                    </li>
+                    <li class="nav-item" id="instagram">
+                        <a class="fab fa-instagram px-2" href="#"></a>
+                    </li>
+                </ul>
+                <ul class="nav" id="secondfooterul4">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">TERMS OF USE</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">PRIVACY POLICY</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">SITE MAP</a>
+                    </li>                
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">DO NOT SELL MY INFO</a>
+                    </li>
+                </ul>
+            <div class="d-block d-sm-block d-md-block d-lg-block d-xl-flex">
+                <hr id="hline">
+            </div>
+            </div>
+            <div class="col-xl-6" id="mobilefooter">
+                <ul class="nav flex-row-reverse" id="secondfooterul5">
+                    <li class="nav-item text-white py-2" id="orderthroughapp">
+                    ORDER THROUGH THE APP
+                    </li>
+                </ul>
+                <ul class="nav flex-row-reverse pt-4" id="secondfooterul6">
+                    <li class="nav-item p-0 m-0">
+                        <a href=""><img src="img/google-play-badge.png" class="p-0 m-0" width="150" height="100"></a>
+                    </li>
+                    <li class="nav-item p-2">
+                        <a href=""><img src="img/apple store.png" class="mt-2" width="150" height="67"></a>
+                    </li>
+                </ul>
+            <div class="d-flex justify-content-end pe-5" id="copyright">
+                <p class="text-white mb-0 mt-4">&copy;2021 Ricky and Mortimore's Mediterranean Bistro, Inc. All rights reserved.</p>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Final footer Mobile Version-->
+      <nav class="fixed-bottom navbar-dark bg-dark justify-content-center" id="finalnav">
+        <div class="d-block d-sm-block d-md-block d-lg-block d-xl-flex p-2 px-3">
+          <h4 class="d-flex justify-content-center text-white" id="chooseexp">CHOOSE YOUR EXPERIENCE</h4>
+            <div class="d-flex justify-content-around" id="mobilebuttons">
+                <div class="btn-group btn-group-lg">
+                    <button class="btn btn-sm btn-danger rounded-0" id="finalnavbtn">RESERVATIONS</button>
+                </div>
+                <div class="btn-group btn-group-lg">
+                    <button class="btn btn-sm btn-danger rounded-0 " id="finalnavbtn2">ORDER ONLINE</button>
+                </div>
+            </div>
+        </div>
+     </nav>
+    
+    
+
+
+    
+    
+       
+
+    
+    <script src="https://kit.fontawesome.com/7dae9ac772.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <script src="app2.js"></script>
+  </body>
+</html>
